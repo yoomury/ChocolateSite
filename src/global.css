@@ -1,0 +1,423 @@
+body
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header
+{
+    font-weight: bold;
+}
+
+.headerLogo
+{
+    float: left;
+    margin-right: 10px;
+}
+.headerLogo > img
+{
+    height: 90px;
+    width: 90px;
+}
+
+
+#mainHeader
+{
+    height: 80px;
+}
+
+.searchBox
+{
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#headerName
+{
+    font-family: headerfont;
+    font-size:40px;
+    color: #603;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #931f43;
+}
+
+#welcomeImage
+{
+    float:left;
+    width: 700px;
+
+
+
+}
+
+.id1
+{
+    width: 700px;
+    height: 300px;
+}
+
+#chocolateOfTheMonth
+{
+    margin-top: 50px;
+    float: right;
+    width: 200px;
+    height: 100px;
+
+}
+#chocolateOfTheMonth > span
+{
+    color: #660033;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#welcomeText
+{
+    float:left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#welcomeText > header
+{
+    color:#660033;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events
+{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#events > header
+{
+    margin-left: 120px;
+    color: #660033;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events > ul
+{
+    list-style: none;
+    margin-left: 100px;
+}
+
+#events > ul > li
+{
+    margin-bottom: 3px;
+}
+
+
+#bestSeller
+{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+.bestSellers
+{
+    float: left;
+}
+.backgroundGradient
+{
+    background: linear-gradient(to right,#660033,#931f43);
+    color: white;
+    padding-left: 10px;
+}
+
+.productArticle
+{
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+
+}
+
+.productArticleThumb
+{
+    width: 200px;
+    height: 100px;
+    margin-left: -55px;
+
+}
+
+.productArticleName
+{
+    font-size: 15px;
+    color: #660033;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.productArticlePrice
+{
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top:15px;
+    margin-left: 25px;
+}
+.productArticleMoreInfo
+{
+    font-size: 12px;
+    color: #660033;
+    margin-top: 5px;
+}
+
+footer
+{
+    clear: both;
+    width: 100%;
+    background-color: #931f43;
+    margin: 20px 0px 20px;
+    padding: 5px;
+
+}
+
+nav
+{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li
+{
+    display: block;
+}
+
+.navlink
+{
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+.navlink.active
+{
+}
+
+@font-face
+{
+    font-family: headerfont;
+    src:url("../fonts/Lobster%201.4.otf")
+}
+
+.addToCart
+{
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #660033;
+    border: 1px solid #931f43;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0,0,0,.75);
+    color:#f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+.addToCart:hover,.addToCart.focus
+{
+    background-color: #931f43;
+    box-shadow: 0 0 1px rgba(0,0,0,.75);
+
+}
+
+
+
+/*All chocos style*/
+
+
+.blockHeader2
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blockHeader
+{
+    background-color: #660033;
+    color: white;
+    padding-left: 10px;
+}
+
+.productArticleWide
+{
+    width: 100%;
+    float: left;
+}
+.productArticleWideThumb
+{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.productArticleWideContent
+{
+    width: 80%;
+    float: right;
+}
+
+.productArticleWideDescription
+{
+    text-wrap: normal;
+}
+
+.productArticleWideName
+{
+    font-size: 15px;
+    color: #660033;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.productArticleWidePrice
+{
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.allChocolates
+{
+    float: left;
+    width: 750px;
+}
+#shoppingCart
+{
+    float: left;
+    width: 175px;
+    margin-left: 50px;
+}
+#shoppingCart > header >span
+{
+    color:#660033;
+}
+
+#butt
+{
+    cursor: pointer;
+    padding: 4px 22px;
+    background: #660033;
+    border: 1px solid #931f43;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0,0,0,.75);
+    color:#f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+#butt:hover,#butt.focus
+{
+    background-color: #931f43;
+    box-shadow: 0 0 1px rgba(0,0,0,.75);
+
+}
+/*Choco Details*/
+
+.chocolateDetails
+{
+    float: left;
+    width: 1000px;
+}
+.productArticleLargeImage
+{
+    width: 400px;
+    height: 200px;
+}
+.productArticleLargeFigure
+{
+    float: left;
+    margin: 10px;
+}
+
+.productArticleContent
+{
+    width: 75%;
+    float: right;
+}
+
+.productArticleDescription
+{
+    text-wrap: normal;
+}
+
+.productArticlePrice
+{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+
+
+
+/*Contactt*/
+.mapToStore
+{
+    float:left;
+    width:1000px;
+}
+#map
+{
+    float:left;
+    width: 65%;
+    height: 600px;
+    margin: 25px;
+}
+
+#drivingDirections
+{
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
